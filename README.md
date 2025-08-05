@@ -86,10 +86,10 @@ python generate_dataset.py
 
 **步骤 2: 训练感知模型**
 
-运行我们最终确定的训练主程序 `run_training.py`。
+运行我们最终确定的训练主程序 `train.py`。
 
 ```bash
-python run_training.py
+python train.py
 ```
 该脚本会自动加载上一步生成的数据，初始化**空间感知模型**，进行训练，并评估其性能。训练结束后，性能最佳的模型权重将被保存为 `best_model.pth`。
 
