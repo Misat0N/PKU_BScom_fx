@@ -6,3 +6,5 @@ matplotlib==3.9.0
 seaborn==0.13.2
 noise
 tqdm==4.66.4
+spicy
+bottleneck
